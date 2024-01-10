@@ -1,0 +1,19 @@
+
+        :root {
+    --body-color: #E4E9F7;
+    --nav-color: #8EACCD;
+    --side-nav: #010718;
+    --text-color: #FFF;
+    --search-bar: #F2F2F2;
+    --search-text: #010718;
+}
+       #nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    background-color: var(--nav-color);
+    z-index: 100;
+}
+    
